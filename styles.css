@@ -1,0 +1,115 @@
+/*basico*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/*principal*/
+header, section, footer {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*header*/
+header {
+  text-align: center;
+  background: #944ec4;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+header img{
+  max-width: 120px;
+  border-radius: 10px;
+}
+
+/*Boton idioma*/
+.cambiar-idioma {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.lang-button {
+  background: #329a80;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.lang-button:hover {
+  background: #257360;
+}
+
+/*secciones*/
+section {
+  padding: 25px;
+  border-left: 5px solid #944ec4;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #944ec4;
+  border-bottom: 2px solid #944ecf;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/*experiencia/educación*/
+.trabajo, .estudio {
+  background: #fcf8ff;
+  padding: 15px;
+  border-left: 4px solid #944ec4;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.trabajo h3, .estudio h3 {
+  font-size: 1.4em;
+  color: #333;
+}
+
+.trabajo p, .estudio p {
+  font-size: 1em;
+  color: #555;
+}
+
+/*Listas habilidades/idiomas*/
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+/*FOOTR*/
+footer {
+  text-align: center;
+}
+
+footer img{
+  max-width: 50px;
+}
